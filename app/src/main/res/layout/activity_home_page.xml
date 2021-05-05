@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/cLayout"
+    android:background="@drawable/gardient_list_background"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+
+    <ImageView
+        android:id="@+id/settings_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:translationX="177.5dp"
+        android:translationY="770dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.082"
+        app:srcCompat="@drawable/settings" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:shadowColor="@color/design_default_color_on_secondary"
+        android:text="Choose Your Way Of Control"
+        android:gravity="center"
+        android:translationY="50dp"
+        android:fontFamily="@font/bangers_regular"
+        android:textColor="@color/white"
+        android:textSize="60sp"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="679dp"
+        android:clipToPadding="false"
+        android:foregroundGravity="center"
+        android:overScrollMode="never" />
+
+</RelativeLayout>

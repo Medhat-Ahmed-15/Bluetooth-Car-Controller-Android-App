@@ -1,0 +1,8 @@
+
+(((useful links for uuid explanation))))
+
+
+https://social.msdn.microsoft.com/Forums/windows/en-US/5ac5878d-e88c-4a01-a328-af7be0fe4e5b/how-to-get-uuid-of-a-bluetooth-le-device?forum=wdk
+
+https://www.novelbits.io/uuid-for-custom-services-and-characteristics/#:~:text=%E2%80%9CA%20UUID%20is%20a%20universally,by%20their%2016%2Dbit%20aliases.
+
