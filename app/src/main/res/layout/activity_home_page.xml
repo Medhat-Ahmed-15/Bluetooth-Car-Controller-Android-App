@@ -30,7 +30,7 @@
         android:layout_gravity="center"
         android:padding="8dp"
         android:shadowColor="@color/design_default_color_on_secondary"
-        android:text="Choose Your Way Of Control"
+        android:text="Choose Your Control Mode"
         android:gravity="center"
         android:translationY="50dp"
         android:fontFamily="@font/bangers_regular"
